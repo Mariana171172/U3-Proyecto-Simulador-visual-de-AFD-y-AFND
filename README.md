@@ -8,13 +8,13 @@
 
 ---
 
-## 🧑‍💻 Integrante
+## Integrante
 - Mariana Abigail Olvera Zúñiga  
 (Matrícula: 2230409)
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto consiste en un **Simulador Visual de Autómatas Finitos Deterministas (AFD)** y **No Deterministas (AFND)**, desarrollado en **Python**, con interfaz gráfica creada en **Tkinter** y visualizaciones construidas mediante **NetworkX** + **Matplotlib**.
 
 El sistema permite:
@@ -28,7 +28,7 @@ Todo bajo una interfaz moderna con diseño personalizado.
 
 ---
 
-## 🧠 Justificación y Algoritmo
+## Justificación y Algoritmo
 El proyecto busca facilitar la comprensión visual e interactiva de los autómatas finitos, sus transiciones y su comportamiento ante cadenas de entrada.
 ### Beneficio educativo:
 - **Estudio práctico**: Permite estudiar el funcionamiento de los autómatas de manera práctica e interactiva.
@@ -54,11 +54,11 @@ El proyecto busca facilitar la comprensión visual e interactiva de los autómat
 
 ---
 
-## 🧰 Estructuras de Datos Utilizadas
+## Estructuras de Datos Utilizadas
 - **Listas y Diccionarios**: Para representar estados, transiciones y cadenas.
 - **Gráficos de red**: Usados para representar gráficamente los autómatas.
 - **Cierre-ε**: Se calcula para AFND y visualiza los estados alcanzados por transiciones ε.
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
