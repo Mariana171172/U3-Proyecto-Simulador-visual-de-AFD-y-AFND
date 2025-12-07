@@ -18,11 +18,11 @@
 Este proyecto consiste en un **Simulador Visual de Autómatas Finitos Deterministas (AFD)** y **No Deterministas (AFND)**, desarrollado en **Python**, con interfaz gráfica creada en **Tkinter** y visualizaciones construidas mediante **NetworkX** + **Matplotlib**.
 
 El sistema permite:
-- 🧠 **Crear AFD y AFND** proporcionando alfabeto, estados, estado inicial, estados finales y transiciones.
-- ▶️ **Simular cadenas** en AFD y AFND paso a paso.
-- 🎨 **Visualizar automáticamente los autómatas** en forma de grafo dirigido.
-- 🔍 **Comparar resultados** entre AFD y AFND usando la misma cadena.
-- 🔎 **Mostrar cierres-ε**, múltiples transiciones y estados alcanzados.
+-  **Crear AFD y AFND** proporcionando alfabeto, estados, estado inicial, estados finales y transiciones.
+-  **Simular cadenas** en AFD y AFND paso a paso.
+-  **Visualizar automáticamente los autómatas** en forma de grafo dirigido.
+-  **Comparar resultados** entre AFD y AFND usando la misma cadena.
+-  **Mostrar cierres-ε**, múltiples transiciones y estados alcanzados.
 
 Todo bajo una interfaz moderna con diseño personalizado.
 
@@ -100,7 +100,7 @@ El proyecto busca facilitar la comprensión visual e interactiva de los autómat
 2. **Ejecutar el programa**:
    python main.py
 
-## 🧪 Pruebas Realizadas
+## Pruebas Realizadas
 Las pruebas consistieron en:
 
 - ✔️ Verificar las transiciones y estados de los autómatas.  
@@ -110,13 +110,13 @@ Las pruebas consistieron en:
 
 ---
 
-## ✅ Conclusiones
+##  Conclusiones
 Este simulador proporciona una herramienta educativa efectiva para visualizar el funcionamiento de los **autómatas finitos**.  
 Se verificó que ambos modelos (AFD y AFND) procesan correctamente las cadenas, mostrando un comportamiento coherente y útil para el aprendizaje de **teoría de lenguajes formales y modelos de cómputo**.
 
 ---
 
-## 📚 Referencias
+##  Referencias
 
 - **Hopcroft, J. E., Motwani, R., & Ullman, J. D. (2008).** *Teoría de autómatas, lenguajes y computación.* Pearson Educación.  
 - **Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE).** *Expresiones regulares y lenguajes.*  
