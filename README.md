@@ -62,3 +62,22 @@ El proyecto busca facilitar la comprensión visual e interactiva de los autómat
 ---
 
 ## Estructura del Proyecto
+```plaintext
+simulador_automatas/
+│
+├── main.py                             # Punto de inicio del simulador
+│
+├── gui/
+│   ├── app.py                          # Ventana principal, estilos y tabs
+│   ├── afd_tab.py                      # Pestaña del AFD
+│   ├── afnd_tab.py                     # Pestaña del AFND
+│   └── compare_tab.py                  # Comparación AFD vs AFND
+│
+├── automata/
+│   ├── dfa.py                          # Implementación del AFD
+│   └── nfa.py                          # Implementación del AFND
+│
+└── utils/
+    ├── visualizer.py                   # Generación de gráficas (NetworkX)
+    └── helpers.py                      # Funciones auxiliares como parse_set
+```
