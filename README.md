@@ -1,4 +1,4 @@
-# Simulador Visual de AFD y AFND
+# Sistema Visual de Simulación y Comparación de AFD y AFND
 ## Universidad Politécnica De Victoria
 **Ingeniería en Tecnologías de la Información**  
 **Materia**: Lenguajes y Autómatas  
