@@ -15,17 +15,21 @@
 ---
 
 ## 📌 Descripción del Proyecto
-Este proyecto desarrolla un **simulador visual** que permite a los usuarios crear y simular **Autómatas Finitos Deterministas (AFD)** y **Autómatas Finitos No Deterministas (AFND)**. El simulador facilita la comprensión de cómo estos autómatas procesan cadenas de símbolos y permite comparar el comportamiento de ambos modelos.
+Este proyecto consiste en un **Simulador Visual de Autómatas Finitos Deterministas (AFD)** y **No Deterministas (AFND)**, desarrollado en **Python**, con interfaz gráfica creada en **Tkinter** y visualizaciones construidas mediante **NetworkX** + **Matplotlib**.
 
-### Funcionalidades:
-- **Creación de AFD y AFND**: El usuario ingresa alfabeto, estados, transiciones y observa cómo los autómatas procesan cadenas.
-- **Simulación de cadenas**: Proceso paso a paso para verificar la aceptación o rechazo de una cadena.
-- **Comparación AFD vs AFND**: Comparación paralela de la ejecución de una misma cadena entre AFD y AFND.
+El sistema permite:
+- 🧠 **Crear AFD y AFND** proporcionando alfabeto, estados, estado inicial, estados finales y transiciones.
+- ▶️ **Simular cadenas** en AFD y AFND paso a paso.
+- 🎨 **Visualizar automáticamente los autómatas** en forma de grafo dirigido.
+- 🔍 **Comparar resultados** entre AFD y AFND usando la misma cadena.
+- 🔎 **Mostrar cierres-ε**, múltiples transiciones y estados alcanzados.
+
+Todo bajo una interfaz moderna con diseño personalizado.
 
 ---
 
 ## 🧠 Justificación y Algoritmo
-El simulador permite visualizar la simulación de autómatas para enseñar de manera interactiva los conceptos de los **lenguajes regulares**. Implementa dos tipos de autómatas (AFD y AFND), destacando sus diferencias en cómo procesan las cadenas.  
+El proyecto busca facilitar la comprensión visual e interactiva de los autómatas finitos, sus transiciones y su comportamiento ante cadenas de entrada.
 ### Beneficio educativo:
 - **Estudio práctico**: Permite estudiar el funcionamiento de los autómatas de manera práctica e interactiva.
 - **Visualización clara**: Muestra gráficamente las rutas, transiciones y cierres-ε, facilitando la comprensión del proceso interno.
