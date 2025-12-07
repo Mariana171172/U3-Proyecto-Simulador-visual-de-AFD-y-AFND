@@ -26,7 +26,27 @@ Este proyecto desarrolla un **simulador visual** que permite a los usuarios crea
 
 ## 🧠 Justificación y Algoritmo
 El simulador permite visualizar la simulación de autómatas para enseñar de manera interactiva los conceptos de los **lenguajes regulares**. Implementa dos tipos de autómatas (AFD y AFND), destacando sus diferencias en cómo procesan las cadenas.  
-- **Programación**: Utiliza un enfoque modular y está implementado en Python con Tkinter para la interfaz gráfica y Matplotlib para visualizaciones.
+### Beneficio educativo:
+- **Estudio práctico**: Permite estudiar el funcionamiento de los autómatas de manera práctica e interactiva.
+- **Visualización clara**: Muestra gráficamente las rutas, transiciones y cierres-ε, facilitando la comprensión del proceso interno.
+- **Facilita el aprendizaje**: Ayuda a entender la teoría de cómputo y lenguajes formales de forma más accesible y dinámica.
+
+### Estructura interna del simulador:
+- **AFD (Autómata Finito Determinista)**: Tiene una única transición definida por cada símbolo del alfabeto.
+- **AFND (Autómata Finito No Determinista)**: Permite múltiples transiciones por símbolo y hace uso de **transiciones ε**, lo que permite moverse entre estados sin consumir símbolos.
+
+### Algoritmos implementados:
+
+#### **Simulación AFD**
+- El AFD sigue un recorrido **lineal** por cada símbolo.
+- Para cada par de **estado actual** y **símbolo leído**, se realiza una **transición única** a un solo estado.
+- **Complejidad computacional**: **O(n)**, donde **n** es la longitud de la cadena procesada.
+
+#### **Simulación AFND**
+- El AFND maneja **conjuntos de estados activos** y permite **múltiples transiciones simultáneas**.
+- Se implementa el cálculo **recursivo del cierre-ε**, permitiendo que el autómata realice transiciones sin consumir símbolos.
+- **Complejidad computacional**: **O(n × m)**, donde **n** es la longitud de la cadena y **m** es el número de estados del autómata.
+
 
 ---
 
