@@ -63,7 +63,7 @@ El proyecto busca facilitar la comprensión visual e interactiva de los autómat
 
 ## Estructura del Proyecto
 ```plaintext
-simulador_automatas/
+📁 **U3-Proyecto-Simulador visual de AFD y AFND/**
 │
 ├── main.py                             # Punto de inicio del simulador
 │
@@ -81,3 +81,43 @@ simulador_automatas/
     ├── visualizer.py                   # Generación de gráficas (NetworkX)
     └── helpers.py                      # Funciones auxiliares como parse_set
 ```
+
+---
+
+## ⚙️ Pasos para Ejecutar el Proyecto
+
+### ✔️ Requisitos
+- Python 3.14 o superior.
+- Tkinter y Matplotlib.
+- NetworkX para el manejo de grafos.
+
+### ⚙️ Pasos para ejecutar
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/MarianaOlvera/U3-Simulador-AFD-AFND.git
+   cd U3-Simulador-AFD-AFND
+2. **Ejecutar el programa**:
+   python main.py
+
+## 🧪 Pruebas Realizadas
+Las pruebas consistieron en:
+
+- ✔️ Verificar las transiciones y estados de los autómatas.  
+- ✔️ Comprobar la equivalencia entre AFD y AFND al procesar las mismas cadenas.  
+- ✔️ Validar el cálculo de **cierre-ε** en AFND.  
+- ✔️ Realizar una comparación visual en tiempo real de ambos autómatas.  
+
+---
+
+## ✅ Conclusiones
+Este simulador proporciona una herramienta educativa efectiva para visualizar el funcionamiento de los **autómatas finitos**.  
+Se verificó que ambos modelos (AFD y AFND) procesan correctamente las cadenas, mostrando un comportamiento coherente y útil para el aprendizaje de **teoría de lenguajes formales y modelos de cómputo**.
+
+---
+
+## 📚 Referencias
+
+- **Hopcroft, J. E., Motwani, R., & Ullman, J. D. (2008).** *Teoría de autómatas, lenguajes y computación.* Pearson Educación.  
+- **Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE).** *Expresiones regulares y lenguajes.*  
+- **Sipser, M. (2012).** *Introduction to the Theory of Computation.*  
